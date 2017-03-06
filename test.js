@@ -7,9 +7,9 @@ const timeout = function (delay) {
 };
 
 async function timer () {
-    console.log('timer started')
+    console.log('timer started');
     await Promise.resolve(timeout(2000));
-    console.log('timer finished')
+    console.log('timer finished');
 }
 
 timer();

@@ -1,7 +1,8 @@
 const timeout = function (delay) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            // throw ('my test error')
+            //  throw ('my test error')
+            // reject('local reject');
         resolve()
     }, delay)
 })
